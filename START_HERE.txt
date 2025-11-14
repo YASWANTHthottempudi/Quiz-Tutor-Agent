@@ -1,0 +1,54 @@
+QUIZBOT - QUICK START GUIDE
+================================
+
+LAUNCH THE APP
+-----------------------------------------
+Command:
+    streamlit run streamlit_simple.py
+
+Access at: http://localhost:8501
+
+
+FEATURES
+-----------------------------------------
+- Beautiful web interface with rounded button options
+- Generate MCQ and True/False quizzes
+- Ask questions about network security
+- Choose from 22+ specific topics or random selection
+- Instant evaluation with color-coded results
+- Green for correct, Red for incorrect answers
+
+
+REQUIREMENTS
+-----------------------------------------
+1. Ollama must be running
+2. Models installed:
+   - llama3.2:latest
+   - nomic-embed-text:latest
+
+Check: ollama list
+
+
+TROUBLESHOOTING
+-----------------------------------------
+If Ollama not running:
+   open -a Ollama  (macOS)
+
+If models missing:
+   ollama pull llama3.2
+   ollama pull nomic-embed-text
+
+If errors persist:
+   Check terminal output for details
+
+
+TOPICS COVERED
+-----------------------------------------
+Cryptography, RSA, AES, Hash Functions, Digital Signatures,
+TLS/SSL, Key Exchange, Authentication, Network Protocols,
+Security Attacks, and more!
+
+
+START NOW
+-----------------------------------------
+streamlit run streamlit_simple.py
